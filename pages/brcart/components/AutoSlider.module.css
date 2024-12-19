@@ -1,0 +1,65 @@
+/* AutoSlider.module.css */
+.sliderContainer {
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+.mainImageContainer {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.mainImage {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.dotsContainer {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.dotImage {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: border 0.3s ease;
+}
+
+.activeDot {
+    border: 2px solid #333;
+    opacity: 0.5;
+}
+
+@media (max-width: 768px) {
+    .dotImage {
+        width: 80px;
+        height: 80px; 
+    }
+
+    .activeDot {
+        opacity: 0.6; 
+    }
+
+    .mainImage {
+        border-radius: 8px; 
+    }
+}
+
+@media (max-width: 480px) {
+    .dotImage {
+        width: 80px; 
+        height: 80px;
+    }
+    
+    .mainImage {
+        border-radius: 6px; 
+    }
+}

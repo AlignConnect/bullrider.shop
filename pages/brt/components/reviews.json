@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Raj K",
+        "image": "/reviews/basir.webp",
+        "review": "Stiroid aur protine powdr lene se muje bloting ki prblm ho jati thi lekin ye ayurvedic capsule se koi prblm nai aa rahi me aasani se apne gym workout pr focus kr sakta hu"
+    },
+    {
+        "id": 2,
+        "name": "Anil Mandal",
+        "image": "/reviews/anil.webp",
+        "review": "Nice effective capsules, gives a really good pump to my body it is really help ful to gain weight and packaging is Very nice and delivery bhi really fast"
+    },
+    {
+        "id": 3,
+        "name": "Momammad Zahid",
+        "image": "/reviews/mohamad.webp",
+        "review": "I am using this capsules from last 2 -3 days one in a morning and one at night and the result's are amazing.👍👍"
+    },
+    {
+        "id": 4,
+        "name": "Rathin Chowdhury",
+        "image": "/reviews/shavro.webp",
+        "review": "Improved my endurance and energy for longer workouts. Ayurvedic and effective!"
+    },
+    {
+        "id": 5,
+        "name": "Koushik Ghosh",
+        "image": "/reviews/alam.webp",
+        "review": "I can see improvement in my energy levels. shko lene ke baad se me pehle se zyada fit mehsoosh kr raha hu"
+    },
+    {
+        "id": 6,
+        "name": "Shamim Ahmed",
+        "image": "/reviews/kaushik.webp",
+        "review": "Market ke kafi capsule aur powder try kiya tha mene leki ye bohot affective nikla highly recommended Plz try paissa barbaad nahi hoga💪"
+    }
+]

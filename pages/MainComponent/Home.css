@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Devanagari:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arya:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.fontPoppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+.fontNoto {
+    font-family: 'Noto Serif Devanagari', sans-serif;
+}
+
+.fontKalnia {
+    font-family: 'Kalnia', serif;
+}
+
+.fontArya {
+    font-family: 'Arya', sans-serif;
+}
+
+.fontJosefin {
+    font-family: "Josefin Sans", sans-serif;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+}
+
+p {
+    font-size: large;
+    font-family: 'Noto Serif Devanagari', sans-serif;
+}
+
+
+
+.shdw {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+
+
+.custom-ol-class {
+    font-size: 1rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    list-style-type: decimal;
+    margin-left: 20px;
+
+}
+
+
+.herbs_card_shaddow {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+
+.review_sdw {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.herb_img {
+    width: 60%;
+    height: auto;
+    margin: auto;
+}
+
+.tb_herb_gap {
+    margin: 16px;
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .custom-ol-class {
+        font-size: 0.9rem;
+    }
+
+    .herb_img {
+        width: 100%;
+        height: auto;
+    }
+}

@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Devanagari:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arya:wght@400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ga+Maamli&display=swap');
+
+.fontPoppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+.fontBebas {
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.fontNoto {
+    font-family: 'Noto Serif Devanagari', sans-serif;
+}
+
+.fontKalnia {
+    font-family: 'Kalnia', serif;
+}
+
+.fontArya {
+    font-family: 'Arya', sans-serif;
+}
+
+.fontRighteous {
+    font-family: "Righteous", sans-serif;
+}
+
+.fontJosefin {
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.fontMaamli {
+    font-family: "Ga Maamli", sans-serif;
+}
+
+
+body {
+    font-family: 'Noto Serif Devanagari', sans-serif;
+}
+
+
+
+.head_bg {
+    background-image: url('https://imagedelivery.net/aacnHGAqlUDhaplA3bnkbA/6e061905-df7e-4318-234f-84c5e24d5800/public');
+    background-size: contain;
+}
+
+.ind_most_trusted_bg {
+    background-image: linear-gradient(to right, #e8c46c, #ebce77, #efd783, #f2e18f, #f6ea9b, #f6ea9b, #f6ea9b, #f6ea9b, #f2e18f, #efd783, #ebce77, #e8c46c);
+}
+
+.brc_bg {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.6671043417366946) 42%, rgba(237, 209, 161, 1) 62%);
+}
+
+.brc_herbs_bg {
+    background-image: url('https://imagedelivery.net/aacnHGAqlUDhaplA3bnkbA/ba65c7f0-2828-4dcf-47ab-92d76fab7200/public');
+    background-size: cover;
+}
+
+.reason_trust {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+@media only screen and (max-width: 768px) {
+    .head_bg {
+        background-size: cover;
+    }
+
+}

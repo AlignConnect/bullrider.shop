@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Offer {
+    background-image: linear-gradient(to right, #eae09b, #efe2a6, #f3e5b2, #f6e8bd, #f9ebc9, #f9eccd, #faecd0, #faedd4, #f9ecd0, #f8ebcd, #f7eac9, #f6e9c6);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.save_extra {
+
+    padding: 5px 20px;
+
+}
+
+.active-data {
+    background-color: #d4ffeb;
+    border: 1px solid #1e744d;
+}
