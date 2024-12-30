@@ -820,3 +820,9 @@ html {
 
   scroll-behavior: smooth;
 }
+
+
+
+.fontPoppins {
+  font-family: 'Poppins', sans-serif;
+}

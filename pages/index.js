@@ -630,11 +630,11 @@ const Page = () => {
                   benifits_content:
                     "स्ट्रेंथ, एनर्जी और स्टैमिना बढ़ाने में मददगार ",
                 },
-                {
-                  img_benifits:
-                    "https://imagedelivery.net/aacnHGAqlUDhaplA3bnkbA/1482b6ab-bf6d-459e-56d2-c33afa8c6f00/public",
-                  benifits_content: "वैवाहिक जीवन खुशहाल बनाने में मददगार",
-                },
+                // {
+                //   img_benifits:
+                //     "https://imagedelivery.net/aacnHGAqlUDhaplA3bnkbA/1482b6ab-bf6d-459e-56d2-c33afa8c6f00/public",
+                //   benifits_content: "वैवाहिक जीवन खुशहाल बनाने में मददगार",
+                // },
 
                 {
                   img_benifits:
@@ -657,6 +657,15 @@ const Page = () => {
               </ul>
             </div>
 
+            <div className="">
+              <img
+                src="https://imagedelivery.net/aacnHGAqlUDhaplA3bnkbA/08401067-3acb-4a7b-4bea-710b2b65d700/public"
+                alt="pic"
+                className="w-full "
+                loading="lazy"
+              />
+            </div>
+
             <div className="flex items-center py-2 space-x-2 mt-4">
               <span className="text-gray-500 text-lg line-through">
                 ₹{parseInt(selectProducts?.compare_at_price)}
@@ -668,7 +677,7 @@ const Page = () => {
                 {parseInt(
                   ((selectProducts?.compare_at_price - selectProducts?.price) /
                     selectProducts?.compare_at_price) *
-                  100
+                    100
                 )}
                 % off
               </span>
@@ -743,12 +752,14 @@ const Page = () => {
                       </div>
                     )}
                     <div
-                      className={`border rounded-lg p-2 sm:p-4 mb-4 sm:flex items-center justify-between gap-5 ${selectProducts.id === variant.id ? "activeStatus2" : ""
-                        }`}
+                      className={`border rounded-lg p-2 sm:p-4 mb-4 sm:flex items-center justify-between gap-5 ${
+                        selectProducts.id === variant.id ? "activeStatus2" : ""
+                      }`}
                     >
                       <div
-                        className={`flex items-center gap-3 ${key === 1 && "pt-5"
-                          }`}
+                        className={`flex items-center gap-3 ${
+                          key === 1 && "pt-5"
+                        }`}
                       >
                         <input
                           type="radio"
@@ -764,24 +775,24 @@ const Page = () => {
                             {parseInt(
                               ((variant?.compare_at_price - variant?.price) /
                                 variant?.compare_at_price) *
-                              100
+                                100
                             )}
                             % off)
                           </h3>
-                          <p className="text-sm text-gray-500">
+                          <p className="fontPoppins text-sm text-gray-500">
                             (extra 10% discount on online payment)
                           </p>
                         </div>
                       </div>
                       <div className="text-left ms-5 sm:ms-0 flex items-center gap-2 sm:block ">
                         <p
-                          className="line-through text-md text-gray-400"
+                          className="fontPoppins line-through text-md text-gray-400"
                           style={{ textDecoration: "line-through red" }}
                         >
                           ₹{parseInt(variant?.compare_at_price)}
                         </p>
 
-                        <p className="text-green-700 font-bold text-2xl">
+                        <p className="fontPoppins text-green-700 font-bold text-2xl">
                           ₹{parseInt(variant?.price)}
                         </p>
                       </div>
@@ -790,8 +801,8 @@ const Page = () => {
                 );
               })}
             </div>
-            <div className="sm:flex items-center gap-3">
-            {/* <div className="flex  items-center gap-3 mt-2 mb-5">
+            <div className="mx-auto">
+              {/* <div className="flex  items-center gap-3 mt-2 mb-5">
               <label className="text-lg font-semibold">Quantity:</label>
               <div className="flex border border-yellow-400 w-fit  items-center space-x-2 bg-yellow-100">
                 <button
@@ -817,9 +828,8 @@ const Page = () => {
                 </button>
               </div>
             </div> */}
-            <ShiProcket/>
-         
-        </div>
+              <ShiProcket />
+            </div>
 
             <div className="text-[#b59c49] md:text-md text-sm bg-[#fff9ef] p-1 font-semibold px-2">
               Get extra 10% discount on online payment
@@ -852,14 +862,14 @@ const Page = () => {
           </div>
 
           <img
-          src="https://imagedelivery.net/aacnHGAqlUDhaplA3bnkbA/e87c6e29-6fc5-41dd-cde9-912aca28dc00/public"
-          sizes="560px"
-          alt="checkout "
-          loading="lazy"
-          className="mx-auto mt-2 mb-5 sm:mt-5 sm:mb-10"
-          width="560"
-          height="326"
-        />
+            src="https://imagedelivery.net/aacnHGAqlUDhaplA3bnkbA/e87c6e29-6fc5-41dd-cde9-912aca28dc00/public"
+            sizes="560px"
+            alt="checkout "
+            loading="lazy"
+            className="mx-auto mt-2 mb-5 sm:mt-5 sm:mb-10"
+            width="560"
+            height="326"
+          />
 
           {/* <div className="">
             <button className="bg-[#fee600] text-black text-2xl font-semibold py-2 my-6 w-full rounded-xl shoporder">
@@ -1017,7 +1027,6 @@ const Page = () => {
               <ul className="list-disc fontNoto ml-5 text-xl">
                 <li>सुबह और रात्रि भोजन के बाद एक कैप्सूल दूध/पानी के साथ</li>
                 <li>बेहतर परिणाम के लिए 1 गिलास दूध के साथ लें</li>
-                <li>एक महीने के अंदर प्रदर्शन में सुधार अनुभव कर सकते है</li>
               </ul>
             </div>
 

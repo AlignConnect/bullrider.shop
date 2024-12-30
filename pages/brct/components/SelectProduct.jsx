@@ -188,20 +188,20 @@ const SelectProduct = () => {
                         )}
                         % off)
                       </h3>
-                      <p className="text-sm text-gray-500">
+                      <p className="fontPoppins text-sm text-gray-500">
                         (extra 10% discount on online payment)
                       </p>
                     </div>
                   </div>
                   <div className="text-left ms-5 sm:ms-0 flex items-center gap-2 sm:block ">
                     <p
-                      className="line-through text-md text-gray-400"
+                      className="fontPoppins line-through text-md text-gray-400"
                       style={{ textDecoration: "line-through red" }}
                     >
                       ₹{parseInt(variant?.compare_at_price)}
                     </p>
 
-                    <p className="text-green-700 font-bold text-2xl">
+                    <p className="fontPoppins text-green-700 font-bold text-2xl">
                       ₹{parseInt(variant?.price)}
                     </p>
                   </div>
