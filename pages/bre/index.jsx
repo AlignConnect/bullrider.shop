@@ -463,7 +463,7 @@ const Page = () => {
                         className="md:w-10 w-8 py-1 "
                         alt="benifits"
                     />
-                    <div className="fontPoppins md:text-[0.9vw] text-[0.9rem] font-semibold text-black my-1">
+                    <div className="fontPoppins md:text-[0.8vw] text-[0.9rem] font-semibold text-black sm:my-4 my-3 text-justify">
                         {e.benifits_content}
                     </div>
                 </div>
@@ -591,7 +591,7 @@ const Page = () => {
                             Bull Rider Capsule
                         </h2>
                         <span className="text-[#b98625] sm:text-[1vw] text-md font-semibold pt-1">
-                            Ayurvedic Medicine For Strength, Stamina & Immunity
+                            Stay Strong, Feel Energetic!
                         </span>
 
                         <div className="fontPoppins sm:flex items-center sm:space-x-3 space-x-2 pt-3">
@@ -630,24 +630,24 @@ const Page = () => {
                                     img_benifits:
                                         "https://imagedelivery.net/aacnHGAqlUDhaplA3bnkbA/2f0d9d4f-59e6-4c42-29cd-94602bd7ca00/public",
                                     benifits_content:
-                                        "Helpful in increasing strength, energy and stamina",
+                                        "Boosts energy and stamina.",
                                 },
-                                // {
-                                //   img_benifits:
-                                //     "https://imagedelivery.net/aacnHGAqlUDhaplA3bnkbA/1482b6ab-bf6d-459e-56d2-c33afa8c6f00/public",
-                                //   benifits_content: "वैवाहिक जीवन खुशहाल बनाने में मददगार",
-                                // },
-
                                 {
                                     img_benifits:
                                         "https://imagedelivery.net/aacnHGAqlUDhaplA3bnkbA/8d346116-5231-4b0f-c048-c13771eefd00/public",
-                                    benifits_content: "Feeling of enthusiasm and energy throughout the day",
+                                    benifits_content: "Helps you power through tough workouts without early fatigue.",
                                 },
                                 {
                                     img_benifits:
                                         "https://imagedelivery.net/aacnHGAqlUDhaplA3bnkbA/2f119d2f-1c67-4161-3f89-414ad776bf00/public",
-                                    benifits_content: "Helpful in muscle strength and muscle recovery",
+                                    benifits_content: "Aids in muscle strength and faster recovery after workouts",
                                 },
+                                {
+                                    img_benifits:
+                                        "https://imagedelivery.net/aacnHGAqlUDhaplA3bnkbA/1482b6ab-bf6d-459e-56d2-c33afa8c6f00/public",
+                                    benifits_content: "Keeps you feeling strong and active all day.",
+                                },
+
                             ])}
                         </div>
 
@@ -1034,7 +1034,7 @@ const Page = () => {
                         </div>
 
                         <p className="fontNoto  text-justify">
-                            Bull Rider Capsule is a pure natural and safe product. Its natural herbs help you achieve your goals by making you energetic and a better performer without any kind of side effects. Not only this, if you want to increase happiness in life and want to see a satisfied smile on your partner's face, then include Bull Rider Capsule in your life once and see its magic!
+                            Bull Rider Capsule is a natural and safe product made from powerful herbs. It helps you feel energetic, perform better and boosts your confidence without any side effects. If you want to bring more happiness into your life and see your partner smile with satisfaction, try Bull Rider Capsule and experience its positive effects!
                         </p>
 
                         <img
@@ -1058,7 +1058,7 @@ const Page = () => {
                         />
 
                         <p className="fontNoto  text-justify pt-3">
-                            This product is approved by GMP, ISO, and FDA. It is a high quality Ayurvedic product which is being widely used by Indian men to increase strength, stamina, and energy as well as to enhance marital happiness.
+                            Bull Rider Capsule is certified by GMP, ISO, and FDA, ensuring top quality and safety. It's a premium Ayurvedic supplement trusted by men across India to improve strength, stamina, energy, and enhance marital happiness.
                         </p>
 
                         <img
@@ -1067,7 +1067,7 @@ const Page = () => {
                         />
 
                         <p className="text-[#a06103] fontPoppins text-xl font-extrabold py-3">
-                            <span className="text-2xl">Do not feel tired,</span> <br />
+                            <span className="text-xl">Try Bull Rider Capsule Today,</span> <br />
                             stay young for years with Ayurvedic method
                         </p>
 
